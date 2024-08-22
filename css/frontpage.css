@@ -3,7 +3,10 @@ body{
     align-self: center;
     background-color:#ecdfcc;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    
+}
+
+a {
+    text-decoration: none;
 }
 
 header{
@@ -23,6 +26,7 @@ header{
     padding: 0px;
     border: 0px;
     margin: 0px;
+    flex-grow: 7;
 }
 
 .container{
