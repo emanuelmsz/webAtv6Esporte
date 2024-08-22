@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     align-self: center;
-    background-color:#ECDFCC;
+    background-color:#ecdfcc;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     
 }
@@ -29,8 +29,17 @@ header{
     text-align: center;
     width: 100%;
     display: inline-block;
-    position: relative;
-    
+    position: relative;   
+}
+
+.container h1{
+    position: absolute;
+    top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .img-loja{
@@ -42,16 +51,40 @@ header{
     border-radius: 0.5%;
 
 }
+
 .card-direita{
     position: absolute;
-    top: 25%;
-    left: 25%
+    top: 20%;
+    left: 15%;
+    background-color: #ecdfcc98;
+    width: 30%;
+    height: 60%;
 }
 
-.texto-esquerda{
+.card-esquerda{
     position: absolute;
-    top: 25%;
-    left: 75%
+    top: 20%;
+    right: 15%;
+    background-color: #ecdfcc98;
+    width: 30%;
+    height: 60%;
+}
+
+.card-esquerda h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-esquerda ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-esquerda li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 
@@ -78,7 +111,7 @@ section{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-img.item{
+.item img{
     border-radius: 5px 5px 0 0;
     max-width: 500px;
     max-height: 500px;
